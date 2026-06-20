@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "1a8d2663-69f8-44d4-a03d-603c2c35ff8b",
+      "name": "Gabriel Quispe",
+      "email": "gabriel@sai.pe",
+      "passwordHash": "41e1f4fec6c78b970815a1067db8f9beb3e25f4a292f9e61274a07cd0222ba50",
+      "passwordSalt": "s4i-gabriel",
+      "nickname": "gabo",
+      "role": "specialist",
+      "avatarUrl": "",
+      "phone": "+51 941 234 056",
+      "district": "San Miguel",
+      "createdAt": "2025-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "d66ff4af-b639-4663-b08c-eabc8f220cf5",
+      "name": "Ana Torres",
+      "email": "ana@sai.pe",
+      "passwordHash": "9bdcdb68d647bf7d891c11b9cc4352880df9ae29fb16d887aac2236b8db5b731",
+      "passwordSalt": "s4i-ana",
+      "nickname": "anita",
+      "role": "patient",
+      "avatarUrl": "",
+      "phone": "+51 987 112 233",
+      "district": "Miraflores",
+      "createdAt": "2025-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "bef48ee0-941c-464d-9b21-c8af8633bebe",
+      "name": "Hector Rios",
+      "email": "hector@sai.pe",
+      "passwordHash": "33730b4feb093a160fa0ba4b246a3dcca9a0517e5cae502e7126e175879400dc",
+      "passwordSalt": "s4i-hector",
+      "nickname": "",
+      "role": "patient",
+      "avatarUrl": "",
+      "phone": "+51 912 877 654",
+      "district": "Comas",
+      "createdAt": "2025-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "c133a95e-25a2-4002-894b-5e27d14baf53",
+      "name": "Hector",
+      "email": "hector@gmail.com",
+      "passwordHash": "d7da2bd417abbc8f58c6df8f05810265ef4e9f0d4eea94fdea46f646018b6c75",
+      "passwordSalt": "fbbc0d433dcc7f21",
+      "nickname": "",
+      "role": "patient",
+      "avatarUrl": "",
+      "phone": "",
+      "district": "",
+      "createdAt": "2026-06-20T23:32:45.642Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "c0a80101-aaaa-4aaa-8aaa-000000000001",
+      "ownerId": "1a8d2663-69f8-44d4-a03d-603c2c35ff8b",
+      "title": "¿Cuáles son los síntomas del dengue?",
+      "messages": [
+        {
+          "role": "user",
+          "content": "¿Cuáles son los síntomas del dengue?",
+          "sentAt": "2026-06-18T15:02:00.000Z"
+        },
+        {
+          "role": "assistant",
+          "content": "El dengue suele presentar fiebre alta, dolor de cabeza intenso, dolor detrás de los ojos, dolores musculares y articulares, y a veces erupción en la piel. Ante fiebre alta persistente o señales de alarma (sangrado, dolor abdominal fuerte, vómitos constantes), acude de inmediato a un centro de salud.",
+          "sentAt": "2026-06-18T15:02:04.000Z"
+        }
+      ],
+      "createdAt": "2026-06-18T15:02:00.000Z",
+      "updatedAt": "2026-06-18T15:02:04.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "r0000001-0000-4000-8000-000000000001",
+      "district": "San Miguel",
+      "disease": "Dengue",
+      "description": "Aumento de casos cerca del parque. Vecinos reportan criaderos de zancudos en recipientes con agua estancada.",
+      "reporterName": "Mateo Rentería",
+      "reporterAvatar": "",
+      "reportedAt": "2026-06-15T13:00:00.000Z"
+    },
+    {
+      "id": "r0000002-0000-4000-8000-000000000002",
+      "district": "Comas",
+      "disease": "Influenza",
+      "description": "Varios casos de gripe fuerte en el colegio del distrito durante la última semana.",
+      "reporterName": "Lucía Fernández",
+      "reporterAvatar": "",
+      "reportedAt": "2026-06-12T10:30:00.000Z"
+    },
+    {
+      "id": "r0000003-0000-4000-8000-000000000003",
+      "district": "Ate",
+      "disease": "Dengue",
+      "description": "Brote localizado tras lluvias. Se recomienda eliminar agua acumulada.",
+      "reporterName": "Carlos Díaz",
+      "reporterAvatar": "",
+      "reportedAt": "2026-06-10T09:15:00.000Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "v0000001-0000-4000-8000-000000000001",
+      "title": "Prevención del dengue",
+      "topic": "Dengue",
+      "source": "youtube",
+      "embedUrl": "https://www.youtube.com/embed/p98LcPSsR7Y"
+    },
+    {
+      "id": "v0000002-0000-4000-8000-000000000002",
+      "title": "Cuidados ante enfermedades respiratorias",
+      "topic": "Respiratorias",
+      "source": "youtube",
+      "embedUrl": "https://www.youtube.com/embed/4Zx6Jj9j7gE"
+    },
+    {
+      "id": "v0000003-0000-4000-8000-000000000003",
+      "title": "Higiene y lavado de manos",
+      "topic": "Prevención",
+      "source": "youtube",
+      "embedUrl": "https://www.youtube.com/embed/3PnFcsbN6xQ"
+    }
+  ]
+}
