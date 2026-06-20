@@ -1,0 +1,33 @@
+{
+  "name": "sai-app",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "description": "SAI — Sistema de Asistencia Inteligente. Reconstrucción profesional en TypeScript con DDD + Clean Architecture (Bounded Contexts: IAM, Assistant, Outbreaks, Library).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "server": "json-server --watch server/db.json --routes server/routes.json --port 3000",
+    "ai": "node server/ai/gemini-proxy.mjs",
+    "start": "concurrently -k -n server,ai,web -c blue,magenta,green \"npm:server\" \"npm:ai\" \"npm:dev\""
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^0.17.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}

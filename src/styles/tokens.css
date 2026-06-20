@@ -1,0 +1,40 @@
+:root {
+  /* ---- Color: clinical, calm, trustworthy ---- */
+  --ink: #0c1b2a;          /* primary text / deep slate navy */
+  --ink-soft: #33475b;
+  --muted: #5b6b7b;        /* secondary text */
+  --faint: #8597a6;
+
+  --surface: #ffffff;      /* cards */
+  --surface-2: #f4f7f9;    /* app background */
+  --surface-3: #eaf0f2;    /* subtle fills */
+  --border: #dbe5ea;
+  --border-strong: #c5d4da;
+
+  --primary: #0e7c86;      /* medical teal */
+  --primary-deep: #0a5a62;
+  --primary-soft: #e2f1f1;
+  --accent: #2fa39b;       /* the single restrained accent (focus, pulse) */
+
+  --success: #1e8e5a;
+  --danger: #c0392b;
+  --danger-soft: #fbe9e7;
+  --warning: #b7791f;
+
+  /* ---- Type ---- */
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* ---- Radius / shadow / motion ---- */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-xl: 26px;
+
+  --shadow-sm: 0 1px 2px rgba(12, 27, 42, 0.06);
+  --shadow-md: 0 10px 30px -12px rgba(12, 27, 42, 0.18);
+  --shadow-lg: 0 30px 60px -24px rgba(10, 90, 98, 0.35);
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
